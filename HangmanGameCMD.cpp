@@ -60,7 +60,6 @@ int main()
 	if (attempts == 0) {
 		std::cout << "You have run out of attempts." << std::endl;
 		std::cout << "You lose!" << std::endl;
-
 	}
 	else {
 		std::cout << "Excellent! Word is: " << hidden_word << "." << std::endl;
