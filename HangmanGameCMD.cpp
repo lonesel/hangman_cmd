@@ -12,6 +12,7 @@ int main()
 	"CHAIR", "DOOR", "MONEY", "PAPER", "PEN", "TABLE", "THING", "ANSWER", "END", "QUESTION", "NUMBER", "PRICE", "WAY"
 	};
 
+	srand(static_cast<unsigned int>(time(0)));
 	std::string hidden_word = words[rand() % (sizeof(words) / sizeof(words[0]))];
 	std::string guessed_word(hidden_word.length(), '-');
 	int attempts = 8;
